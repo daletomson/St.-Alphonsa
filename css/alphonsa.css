@@ -1,0 +1,59 @@
+@font-face{
+	font-family:'malayalam';
+	src: url('../fonts/MLAA0BTT.TTF');
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:'malayalam',serif;
+}
+ul{
+	list-style-type:none;
+	padding:0 !important;
+}
+.container-fluid{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+.english{
+	font-family:"Trebuchet MS", Helvetica, sans-serif !important;
+}
+.banner>.img-banner{
+	height:100vh;
+	width:100vw;
+}
+.banner>a{
+	position:absolute;
+	bottom:0;
+	left:43%;
+	padding:.5em .5em 0 .5em;
+	background:rgba(255,255,255,.8);
+	font-size:2em;
+	color:#595959 !important;
+	border-radius:50%;
+}
+.block-k>li{
+	padding:2em .5em;
+	text-align:center;
+	font-size:1.3em;
+}
+.yellow{
+	background:#F4FA58;
+}
+#footer{
+	background:#fff793;
+	text-align:center;
+}
+.fixed-btn>a{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:50px;
+	height:50px;
+	padding:0.25em 0.2em 0.2em 0.45em;
+	font-size:2em;
+	color:#595959 !important;
+	background:rgba(255,255,255,.8);
+	border-radius:50%;
+}
