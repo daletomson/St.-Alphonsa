@@ -25,7 +25,7 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <icon src="icon.png"/>
+  <icon src="icon.png" gap:role="default"/>
   <platform name="android">
     <icon src="img/icon/32x32.png" density="ldpi"/>
     <icon src="img/icon/48x48.png" density="mdpi"/>
